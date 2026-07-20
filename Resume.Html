@@ -11,10 +11,9 @@
 <body>
     <nav class="navigationbar">
         <ul class="navbar">
-           <li><a href="">About Me</a></li>
-           <li><a href="">Projects</a></li>
-           <li><a href="">Contact</a></li>
-           <li><a href="">Download</a></li>    
+           <li><a href="#About">About Me</a></li>
+           <li><a href="#Projects">Projects</a></li>
+           <li><a href="#Contact">Contact</a></li>    
         </ul>
     </nav>
     <div class="introduction">
@@ -33,18 +32,18 @@
             </div>
         </div>
         <div class="picture">
-            <img class="blackpicture" src="/sasuke-black.jpg" alt="my_photo">
-            <img class="whitepicture" src="/sasuke-white.jpg" alt="my_photo">
+            <img class="blackpicture" src="/assets/sasuke-black.jpg" alt="my_photo">
+            <img class="whitepicture" src="/assets/sasuke-white.jpg" alt="my_photo">
         </div>
         <div class="socials">
-            <a href="" target="_blank" class="home__social-link">
+            <a href="https://www.linkedin.com/in/watson-mubanga-08b953422" target="_blank" class="home__social-link">
               <i class="ri-linkedin-fill"></i>
             </a>
-            <a href="" target="_blank" class="home__social-link">
+            <a href="https://github.com/OfficialWatsonMubanga" target="_blank" class="home__social-link">
               <i class="ri-github-line"></i>
             </a>
-            <a href="" target="_blank" class="home__social-link">
-              <i class="ri-tiktok-line"></i>
+            <a href="mailto:watsonmubangaofficial@gmail.com" target="_blank" class="home__social-link">
+              <i class="ri-google-fill"></i>
             </a>
             <a href="" target="_blank" class="home__social-link">
               <i class="ri-instagram-line"></i>
@@ -55,7 +54,7 @@
           </div>
     </div>
 
-    <div class="About">
+    <div class="About" id="About">
         <div class="heading">
             <h1>Code is My Craft</h1>
         </div>
@@ -82,11 +81,11 @@
             
         </div>
         <div class="cvdownload">
-            <button class="Download" onclick="">Resume</button>
+            <a href="/assets/WATSON CV.pdf" download="Watson_CV.pdf"><button class="Download">Resume</button></a>
         </div>
     </div>
 
-    <div class="Projects">
+    <div class="Projects" id="Projects">
         <div class="heading">
             <h1>Showcase of my Projects</h1>
         </div>
@@ -94,63 +93,70 @@
             <div class="proof">
                 <div class="slidenumber">01</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">Personal Portfolio</div>
+                <div class="projectdescription">
+                    <p>A personal portfolio website to showcase my skills and projects.Using pure HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="projectimage"><img src="/assets/Screenshot 2026-07-20 042838.png" alt="PORTFOLIO PHOTO" width="100%" height="100%">
+                                            <a href="https://watsonmubanga.github.io/Portfolio/" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
             <div class="proof">
                 <div class="slidenumber">02</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">Queue Management System</div>
+                <div class="projectdescription">
+                    <p>Allows users to join virtual queues and manage their waiting time. Using React + Vite and Python(flask) for backend</p>
+                </div>
+                <div class="projectimage"><img src="/assets/AIQ.png" alt="AI Queue Management System" width="100%" height="100%">
+                                            <a href="https://github.com/watsonmubanga/AI-Queue-Management-System" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
             <div class="proof">
                 <div class="slidenumber">03</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
-            </div>
-            <div class="proof">
-                <div class="slidenumber">04</div>
-                <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
-            </div>
-            <div class="proof">
-                <div class="slidenumber" style="color:red;">05</div>
-                <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">SkyChateau</div>
+                <div class="projectdescription">
+                    <p>Worked on the frontend of this application catered for students.Using Vanilla HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="projectimage"><img src="/assets/Screenshot 2026-07-20 043453.png" alt="SkyChateau" width="100%" height="100%">
+                                            <a href="https://github.com/watsonmubanga/SkyChateau" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
             <div class="proof">
                 <div class="slidenumber">01</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">Personal Portfolio</div>
+                <div class="projectdescription">
+                    <p>A personal portfolio website to showcase my skills and projects.Using pure HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="projectimage"><img src="/assets/Screenshot 2026-07-20 042838.png" alt="PORTFOLIO PHOTO" width="100%" height="100%">
+                                            <a href="https://watsonmubanga.github.io/Portfolio/" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
             <div class="proof">
                 <div class="slidenumber">02</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">Queue Management System</div>
+                <div class="projectdescription">
+                    <p>Allows users to join virtual queues and manage their waiting time. Using React + Vite and Python(flask) for backend</p>
+                </div>
+                <div class="projectimage"><img src="/assets/AIQ.png" alt="AI Queue Management System" width="100%" height="100%">
+                                            <a href="https://github.com/watsonmubanga/AI-Queue-Management-System" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
             <div class="proof">
                 <div class="slidenumber">03</div>
                 <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
+                <div class="projecttitle">SkyChateau</div>
+                <div class="projectdescription">
+                    <p>Worked on the frontend of this application catered for students.Using Vanilla HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="projectimage"><img src="/assets/Screenshot 2026-07-20 043453.png" alt="SkyChateau" width="100%" height="100%">
+                                            <a href="https://github.com/watsonmubanga/SkyChateau" target="_blank"><button class="visitbtn"><i class="ri-arrow-right-up-long-line"></i></button></a>
+                </div>
             </div>
-            <div class="proof">
-                <div class="slidenumber">04</div>
-                <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
-            </div>
-            <div class="proof">
-                <div class="slidenumber" style="color:red;">05</div>
-                <div class="projecttype">web</div>
-                <div class="projecttitle">ai queue management system</div>
-                <div class="projectimage"><img src="" alt="" width="90%" height="90%"></div>
-            </div>
+           
         </div>
     </div>
 
@@ -159,12 +165,12 @@
             <h1>Foot<span style="color:#ffffff">Print</span></h1>
         </div>
         <div class="studybuttons">
-            <button class="Exbutton">Experience</button>
+            <button id="Exbutton" class="Exbutton">Experience</button>
             <button class="Edbutton">Education</button>
         </div>
 
         <div class="experience">
-            <div class="content">
+            <div class="Excontent">
                 <p>At the current moment i have no commendable work experince besides my projects</p> 
             </div>
         </div>
@@ -185,7 +191,7 @@
                     </div>
                     <h1 class="yearofstudy">2023 - Present</h1>
                 </div>
-                <p class="studydescription">Completed my high school studies and gained basic skills to be used in line with profession </p>
+                <p class="studydescription">This is my current educational journey, where I am pursuing a Bachelor of Science in Computer Science. </p>
             </div>
         </div>
 
@@ -200,11 +206,13 @@
         <div class="servicecards">
 
             <div class="cards media">
-                <h2 class="cardtitle">Media</h2>
-                <div class="dropdownbtn">
-                    <button onclick="" > <img src="/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                <div class="titlenbutton">
+                    <h2 class="cardtitle">Media</h2>
+                    <div class="dropdownbtn mediadropdownbtn">
+                        <button onclick="" > <img src="/assets/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                    </div>
                 </div>
-                <div class="hiddencardcontent">
+                <div class="hiddencardcontent mhcc">
                     <h3>Photo Editing</h3>
                     <h3>Video Editing</h3>
                     <h3>Poster Creation</h3>
@@ -213,11 +221,13 @@
             </div>
         
             <div class="cards dev">
-                <h2 class="cardtitle">Dev</h2>
-                <div class="dropdownbtn">
-                    <button onclick="" > <img src="/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                <div class="titlenbutton">
+                    <h2 class="cardtitle">Dev</h2>
+                    <div class="dropdownbtn devdropdownbtn">
+                        <button onclick="" > <img src="/assets/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                    </div>
                 </div>
-                <div class="hiddencardcontent">
+                <div class="hiddencardcontent dhcc">
                     <h3>HTML</h3>
                     <h3>CSS</h3>
                     <h3>JavaScript</h3>
@@ -229,11 +239,13 @@
             </div>
        
             <div class="cards personal">
-                <h2 class="cardtitle">Personal</h2>
-                <div class="dropdownbtn">
-                    <button onclick="" > <img src="/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                <div class="titlenbutton">
+                    <h2 class="cardtitle">Personal</h2>
+                    <div class="dropdownbtn personaldropdownbtn">
+                        <button onclick="" > <img src="/assets/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                    </div>
                 </div>
-                <div class="hiddencardcontent">
+                <div class="hiddencardcontent phcc">
                     <h3>Analytical Thinking</h3>
                     <h3>Creativity</h3>
                     <h3>Hardworking</h3>
@@ -242,11 +254,13 @@
             </div>
         
             <div class="cards gaming">
-                <h2 class="cardtitle">Gaming</h2>
-                <div class="dropdownbtn">
-                    <button onclick="" > <img src="/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                <div class="titlenbutton">
+                    <h2 class="cardtitle">Gaming</h2>
+                    <div class="dropdownbtn gamingdropdownbtn">
+                        <button onclick="" > <img src="/assets/keyboard_arrow_down_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="drop down menu"> </button>
+                    </div>
                 </div>
-                <div class="hiddencardcontent">
+                <div class="hiddencardcontent ghcc">
                     <h3>Game Design</h3>
                     <h3>Game Creation</h3>
                     <h3>Unity</h3>
@@ -259,7 +273,7 @@
 
     </div>
 
-    <div class="Contact">
+    <div class="Contact" id="Contact">
         <div class="header">
             <h1>Contact<span style="color:#ffffff"> Me</span></h1>
         </div>
@@ -271,30 +285,26 @@
             <div class="links">
                 <div class="Socials">
                     <h2 class="miniheading">Social Media</h2>
-                    <a href="">linkedIn</a>
-                    <a href="">GitHub</a>
-                    <a href="">TikTok</a>
-                    <a href="">Instagram</a>
-                    <a href="">X</a>
-                    <a href="">Facebook</a>
+                    <a href="https://www.linkedin.com/in/watson-mubanga-08b953422" target="_blank">
+                        <p>linkedIn</p> 
+                        <i class="ri-arrow-right-up-long-line"></i>
+                    </a>
+                    <a href="https://github.com/OfficialWatsonMubanga" target="_blank"><p>GitHub</p><i class="ri-arrow-right-up-long-line"></i></a>
                 </div>
                 <div class="message">
                     <h2 class="miniheading"> Message me on</h2>
-                    <a href="">WhatsApp</a>
-                    <a href="">Instagram</a>
-                    <a href="">TikTok</a>
-                    <a href="">Messenger</a>
+                    <a href="wa.me/260973880777" target="_blank"><p>WhatsApp</p><i class="ri-arrow-right-up-long-line"></i></a>
                 </div>
                 <div class="email">
                     <h2 class="miniheading">Email</h2>
-                    <a href="">watsonmubanga@gmail.com</a>
+                    <a href="mailto:watsonmubangaofficial@gmail.com" target="_blank">watsonmubanga@gmail.com</a>
                 </div>
             </div>
         </div>
     </div>
     <footer class="footer" class="content" style="text-align: center;">
         <p>
-            UUKM 2026 
+           2026 
         </p>
     </footer>
 </body>
